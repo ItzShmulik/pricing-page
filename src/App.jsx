@@ -16,6 +16,7 @@ function App() {
             title={item.title}
             price={item.price}
             description={item.description}
+            perks={item.perks}
           />
         ))}
       </div>
@@ -26,17 +27,56 @@ const plansData = [
   {
     title: "Starter",
     price: "24",
-    description: "",
+    description: "Ideal for freelancers and contractors just starting out.",
+    perks: (
+      <ul>
+        <li className="perk">All Templates</li>
+        <li className="perk">Unlimited Clients & Projects</li>
+        <li className="perk">Invoicing & Payments</li>
+        <li className="perk">Proposals & Contracts</li>
+        <li className="perk">Tasks & Time Tracking</li>
+        <li className="perk">Client CRM</li>
+        <li className="perk">Expense Tracking</li>
+        <li className="perk">Up to 5 Project Collaborators</li>
+      </ul>
+    ),
   },
   {
     title: "Professional",
     price: "39",
-    description: "",
+    description: "Everything a growing independent business needs to thrive.",
+    perks: (
+      <ul>
+        <li className="perk">Everything in Starter plus...</li>
+        <li className="perk">Custom Branding</li>
+        <li className="perk">Forms & Questionnaires</li>
+        <li className="perk">Workflow Automations</li>
+        <li className="perk">Client Portal</li>
+        <li className="perk">QuickBooks Integration</li>
+        <li className="perk">Calendly Integration</li>
+        <li className="perk">Zapier Integration</li>
+        <li className="perk">Up to 15 Project Collaborators</li>
+      </ul>
+    ),
   },
   {
     title: "Business",
     price: "79",
-    description: "",
+    description: "The perfect package for small businesses and agencies.",
+    perks: (
+      <ul>
+        <li className="perk">Everything in Starter and Professional plus...</li>
+        <li className="perk">Subcontractor Management</li>
+        <li className="perk">Hiring Agreement Templates (1099 contracts)</li>
+        <li className="perk">Subcontractor Onboarding</li>
+        <li className="perk">Talent Pool</li>
+        <li className="perk">3 Team Seats (additional seats $9/month)</li>
+        <li className="perk">Accountant Access</li>
+        <li className="perk">Connect Multiple Bank Accounts</li>
+        <li className="perk">Unlimited Subcontractors</li>
+        <li className="perk">Unlimited Project Collaborators</li>
+      </ul>
+    ),
   },
 ];
 const accorData = [
