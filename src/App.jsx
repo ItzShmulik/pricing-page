@@ -10,14 +10,35 @@ function App() {
         <button></button>
         <h3>Yearly</h3>
       </div>
-      <div>
-        <DataBox title="Starter" price="24" />
-        <DataBox title="Professioanl" price="39" />
-        <DataBox title="Business" price="79" />
+      <div className="plans">
+        {plansData.map((item, i) => (
+          <DataBox
+            title={item.title}
+            price={item.price}
+            description={item.description}
+          />
+        ))}
       </div>
     </>
   );
 }
+const plansData = [
+  {
+    title: "Starter",
+    price: "24",
+    description: "",
+  },
+  {
+    title: "Professional",
+    price: "39",
+    description: "",
+  },
+  {
+    title: "Business",
+    price: "79",
+    description: "",
+  },
+];
 const accorData = [
   {
     question: "How does the free trial work?",
