@@ -4,7 +4,7 @@ import DataBox from "./Components/DataBox";
 function App() {
   return (
     <>
-      <div>
+      <div className="top">
         <h1>Plans & Pricing</h1>
         <h3>Monthly</h3>
         <button></button>
@@ -17,6 +17,7 @@ function App() {
             price={item.price}
             description={item.description}
             perks={item.perks}
+            key={i}
           />
         ))}
       </div>

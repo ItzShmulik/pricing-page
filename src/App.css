@@ -1,0 +1,28 @@
+*{
+    color: #4c4d5f;
+    font-family: 'Roboto';
+}
+
+body, .App, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.plans{
+    margin-left: auto;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+}
+
+.plan-box{
+    border: 1px solid #bdbfbe;
+    border-radius: 5px;
+    padding: 10px;
+    height: 700px;
+}
+
+.plan-description{
+    font-size: 15px;
+}
