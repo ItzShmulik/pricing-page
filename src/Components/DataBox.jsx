@@ -5,7 +5,7 @@ function DataBox(props) {
       <p className="plan-description">{props.description}</p>
       <h2>${props.price}/MONTH</h2>
       {props.perks}
-      <button>START FREE</button>
+      <button className="start-free-button">START FREE</button>
     </div>
   );
 }

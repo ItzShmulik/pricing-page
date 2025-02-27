@@ -30,7 +30,7 @@ const plansData = [
     price: "24",
     description: "Ideal for freelancers and contractors just starting out.",
     perks: (
-      <ul>
+      <ul className="perks-list">
         <li className="perk">All Templates</li>
         <li className="perk">Unlimited Clients & Projects</li>
         <li className="perk">Invoicing & Payments</li>
@@ -47,7 +47,7 @@ const plansData = [
     price: "39",
     description: "Everything a growing independent business needs to thrive.",
     perks: (
-      <ul>
+      <ul className="perks-list">
         <li className="perk">Everything in Starter plus...</li>
         <li className="perk">Custom Branding</li>
         <li className="perk">Forms & Questionnaires</li>
@@ -65,7 +65,7 @@ const plansData = [
     price: "79",
     description: "The perfect package for small businesses and agencies.",
     perks: (
-      <ul>
+      <ul className="perks-list">
         <li className="perk">Everything in Starter and Professional plus...</li>
         <li className="perk">Subcontractor Management</li>
         <li className="perk">Hiring Agreement Templates (1099 contracts)</li>

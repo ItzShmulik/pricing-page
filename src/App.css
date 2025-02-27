@@ -20,9 +20,30 @@ body, .App, html{
     border: 1px solid #bdbfbe;
     border-radius: 5px;
     padding: 10px;
-    height: 700px;
+    height: 500px;
 }
 
 .plan-description{
     font-size: 15px;
+}
+
+.perks-list{
+    height: 50%;
+    list-style-type: "✔️";
+}
+
+.perks-list li{
+    text-indent: 5px;
+}
+
+.start-free-button{
+    background-color: #00b289;
+    color: #fff;
+    border: transparent;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    transform: translateX(50%);
 }
