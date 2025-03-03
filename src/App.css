@@ -13,14 +13,14 @@ body, .App, html{
     margin-left: auto;
     width: 80%;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .plan-box{
     border: 1px solid #bdbfbe;
     border-radius: 5px;
     padding: 10px;
-    height: 500px;
+    height: 600px;
 }
 
 .plan-description{
@@ -34,16 +34,38 @@ body, .App, html{
 
 .perks-list li{
     text-indent: 5px;
+    margin-bottom: 5px;
+}
+
+.plan-pricing-details{
+    border-bottom: #00b289 3px solid;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+
+.plan-price{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.plan-currency{
+    font-size: 30px;
+    position: absolute;
 }
 
 .start-free-button{
     background-color: #00b289;
     color: #fff;
     border: transparent;
-    width: 50%;
-    height: 50px;
+    width: 60%;
+    height: 60px;
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
-    transform: translateX(50%);
+    transform: translateX(30%);
+}
+
+.start-free-button:hover{
+    background-color: #05a17d;
 }
