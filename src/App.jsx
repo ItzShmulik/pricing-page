@@ -7,7 +7,10 @@ function App() {
       <div className="top">
         <h1>Plans & Pricing</h1>
         <h3>Monthly</h3>
-        <button></button>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
         <h3>Yearly</h3>
       </div>
       <div className="plans">
